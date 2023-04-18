@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .con{
+            border: 1px solid red;
+            width: 80%;
+            margin: 0% auto;
+        }
+        #parent2 {
+            position: relative;
+            border: 1px solid blue;
+            width: 300px;
+            height: 100px;
+            width: 80%;
+            margin: 0% auto;
+        }
+        #child2 {
+            position: absolute;
+            border: 1px solid red;
+            top: 70px;
+            right: 15px;
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <div class="con">ad</div>
+        <div id="parent2">Parent2: position: relative.
+            <div id="child2">Child2: position: absolute, right: 15px, top: 70px</div>
+        </div>
+    </section>
+</body>
+</html>
